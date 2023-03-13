@@ -1,0 +1,73 @@
+---
+title: "HW1"
+author: "meryem şahan 21080515"
+date: "2023-03-13"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+# Do not delete or modify this chunk.
+# We will cover chunk options later.
+# This is required for Question 7
+library(knitr)
+opts_chunk$set(fig.align="center", fig.height=4, fig.width=5.5)
+```
+
+**Question 1** With Markdown write a sentence that has one word in bold.
+
+This is **bold**.
+
+**Question 2** With Markdown write a sentence that has one word in italic.
+
+This is *italic*.
+
+**Question 3** With Markdown write a sentence that has one word in italic bold.
+
+This is ***italic and bold***.
+
+
+
+**Question 4** With Markdown write an unordered list with three items.
+
+-   Blush
+-   Lipstick
+-   Concealer
+
+**Question 5** With Markdown write an ordered list with three items.
+
+1)  Concealer
+2)  Blush
+3)  Lipstick
+
+**Question 6** With Markdown give a link to your favorite webpage.
+
+[seçim sayacı](https://canlisaat.com/secim-sayaci/)
+
+**Question 7** 
+
+![cat pic](C:\Users\Meryem\Desktop\cato.jpeg)
+
+
+**Question 8** With Rmarkdown insert a code chunk and give an example of a simple mathematical calculation in it.
+
+```{r simple equation}
+x <- 5
+y <- 10
+z <- x + y
+z
+```
+
+**Question 9** With $LaTeX$ write your favorite equation in block form.
+
+\begin{equation}
+Inflation\ Rate = \frac{Price\ Level_t - Price\ Level_{t-1}}{Price\ Level_{t-1}} \times 100\%
+\end{equation}
+
+
+**Question 10** In a code chunk calculate 3 + 4.
+
+
+```{r}
+3+4
+```
+
